@@ -1,0 +1,19 @@
+{
+  "name": "unidentbot",
+  "version": "1.0.0",
+  "description": "",
+  "master": "index.js",
+  "scripts": {
+    "dev":"nodemon index.js",
+    "start":"node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "telegraf": "^4.4.2",
+    "telegraf-markup4-ts": "^1.0.7",
+    "nodemon": "^2.0.15"
+  }
+}
